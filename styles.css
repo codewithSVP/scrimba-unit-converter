@@ -1,0 +1,95 @@
+body {
+    background-color: #1C1C1C;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 550px;
+    height: 100vh;
+    justify-content: center;
+}
+
+#upper-container {
+    color: #FFFFFF;
+    background-color: #6943FF;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    margin: 30px 50px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#input-field {
+    height: 80px;
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Removes the default appearance */
+    margin: 0; /* Removes the default margin */
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield; /* Removes the default appearance */
+}
+
+#convert-btn {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+#lower-container {
+    background-color: #1F2937;
+}
+
+.conv-unit-div {
+    width: 500px;
+    height: 100px;
+    margin: 25px auto;
+    background-color: #273549;
+    text-align: center;
+}
+
+.unit-title {
+    color: #CCC1FF;
+    margin: 0;
+    padding: 30px 0 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.unit-p {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    size: 14px;
+    font-weight: 400;
+}
